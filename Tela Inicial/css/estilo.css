@@ -1,0 +1,56 @@
+
+.body{
+	text-align: center;
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+
+.paragrafo{
+
+font-size: 20px;
+
+}
+
+.carrossel{
+	width: 400px;
+	height: 240px;
+	outline: 1px solid black;
+    overflow: hidden;
+	margin: 50px auto;
+	box-shadow: 10px 10px 15px rgba(0.0.0.0.7);
+}
+
+.carrossel ul{
+	display: flex;
+	list-style: none;
+	width: 2000px;
+	height: 250px;
+	overflow: hidden;
+}
+
+.carrossel li{
+	position: relative;
+    animation: slide 25s infinite ease-out;
+}
+
+@keyframes slide{
+	0%{left: 0px}
+
+    20%{left: -400px}
+
+	40%%{left: -800px}
+
+	60%{left: -1200px}
+
+	80%{left: -1600px}
+
+	100%{left: -0px}
+
+
+}
+
+#listadeservicos{
+	font-size: 20px;
+	text-align: left;
+}
